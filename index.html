@@ -1,0 +1,230 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Gourangi Sharma — AI Engineer &amp; Problem Solver</title>
+  <meta name="description" content="Portfolio of Gourangi Sharma — Aspiring AI Engineer building smart tech with real-world impact. Explore projects, skills, and connect.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&family=Space+Grotesk:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <!-- ══════════════ CURSOR GLOW ══════════════ -->
+  <div id="cursor-glow" class="cursor-glow"></div>
+
+  <!-- ══════════════ NAVIGATION ══════════════ -->
+  <nav id="main-nav" class="nav">
+    <div class="nav-inner">
+      <a href="#" class="nav-logo" id="nav-logo">GS<span class="dot">.</span></a>
+      <ul class="nav-links">
+        <li><a href="#about" id="nav-about">About</a></li>
+        <li><a href="#work" id="nav-work">Work</a></li>
+        <li><a href="#skills" id="nav-skills">Skills</a></li>
+        <li><a href="#contact" id="nav-contact">Contact</a></li>
+      </ul>
+      <div class="nav-status" id="nav-status">
+        <span class="status-dot"></span>
+        Available for work
+      </div>
+    </div>
+  </nav>
+
+  <!-- ══════════════ VERTICAL SOCIAL SIDEBAR ══════════════ -->
+  <aside class="social-sidebar" id="social-sidebar">
+    <a href="https://github.com/Gourangisharma" target="_blank" rel="noopener" aria-label="GitHub" id="social-github">
+      <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22"/></svg>
+    </a>
+    <a href="https://www.linkedin.com/in/gourangi-sharma-a34b2b244" target="_blank" rel="noopener" aria-label="LinkedIn" id="social-linkedin">
+      <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z"/><rect x="2" y="9" width="4" height="12"/><circle cx="4" cy="4" r="2"/></svg>
+    </a>
+    <a href="mailto:gourangi98@gmail.com" aria-label="Email" id="social-email">
+      <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="2" y="4" width="20" height="16" rx="2"/><path d="m22 7-8.97 5.7a1.94 1.94 0 0 1-2.06 0L2 7"/></svg>
+    </a>
+    <div class="sidebar-line"></div>
+  </aside>
+
+  <!-- ══════════════ BACKGROUND NAME ══════════════ -->
+  <div class="bg-name" aria-hidden="true">
+    <span>GOURANGI</span>
+    <span>SHARMA</span>
+  </div>
+
+  <!-- ══════════════ MAIN BENTO GRID ══════════════ -->
+  <main class="bento-container" id="bento-main">
+
+    <!-- ── ROW 1 ── -->
+    <section class="bento-card card-intro" id="about" data-animate>
+      <div class="card-label">Introduction</div>
+      <h1 class="intro-heading">
+        I don't just write code —<br>
+        I build <span class="accent">solutions</span>.
+      </h1>
+      <p class="intro-sub">AI Enthusiast · Problem Solver · Future Innovator</p>
+    </section>
+
+    <section class="bento-card card-hero" data-animate>
+      <img src="./images/portrait-hero.png" alt="Gourangi Sharma — Portrait" class="hero-portrait" id="hero-portrait">
+      <div class="hero-overlay">
+        <span class="hero-tag">Est. 2004</span>
+      </div>
+    </section>
+
+    <section class="bento-card card-stats" data-animate>
+      <div class="stat-item">
+        <span class="stat-number" data-count="3">0</span>
+        <span class="stat-label">Projects<br>Shipped</span>
+      </div>
+      <div class="stat-divider"></div>
+      <div class="stat-item">
+        <span class="stat-number" data-count="10">0</span>
+        <span class="stat-label">Skills<br>Mastered</span>
+      </div>
+      <div class="stat-divider"></div>
+      <div class="stat-item">
+        <span class="stat-number" data-count="2">0</span>
+        <span class="stat-label">Years of<br>Experience</span>
+      </div>
+    </section>
+
+    <!-- ── ROW 2 ── -->
+    <section class="bento-card card-project" id="work" data-animate>
+      <div class="card-label">Latest Project</div>
+      <div class="project-preview">
+        <img src="./images/project-thumbnail.png" alt="AI Price Predictor — Project Preview" class="project-img" id="project-img">
+        <div class="project-info">
+          <h2 class="project-title">AI Retail Intelligence</h2>
+          <p class="project-desc">AI-powered retail intelligence system focused on predictive analytics, data processing, model building, and scalable smart decision-making for real-world applications.</p>
+          <a href="#" class="project-link" id="project-link">
+            View Case Study
+            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><path d="M7 17L17 7"/><path d="M7 7h10v10"/></svg>
+          </a>
+        </div>
+      </div>
+    </section>
+
+    <section class="bento-card card-about" data-animate>
+      <div class="card-label">About</div>
+      <p class="about-text">
+        CS student turning ideas into reality. I combine data, logic, 
+        and creativity to build tech that solves <span class="accent">real-world problems</span> — 
+        from AI-based tools to efficient algorithms.
+      </p>
+      <p class="about-text-secondary">
+        My vision: merge technology &amp; entrepreneurship to create 
+        meaningful businesses that make everyday life better.
+      </p>
+    </section>
+
+    <!-- ── ROW 3 ── -->
+    <section class="bento-card card-skills" id="skills" data-animate>
+      <div class="card-label">Skill Set</div>
+      <div class="skills-grid">
+        <div class="skill-chip" data-skill="python">
+          <svg class="skill-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M12 2L2 7l10 5 10-5-10-5z"/><path d="M2 17l10 5 10-5"/><path d="M2 12l10 5 10-5"/></svg>
+          <span>Python</span>
+        </div>
+        <div class="skill-chip" data-skill="cpp">
+          <svg class="skill-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><polyline points="16 18 22 12 16 6"/><polyline points="8 6 2 12 8 18"/></svg>
+          <span>C++</span>
+        </div>
+        <div class="skill-chip" data-skill="sql">
+          <svg class="skill-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><ellipse cx="12" cy="5" rx="9" ry="3"/><path d="M21 12c0 1.66-4 3-9 3s-9-1.34-9-3"/><path d="M3 5v14c0 1.66 4 3 9 3s9-1.34 9-3V5"/></svg>
+          <span>SQL</span>
+        </div>
+        <div class="skill-chip" data-skill="dsa">
+          <svg class="skill-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><rect x="3" y="3" width="7" height="7" rx="1"/><rect x="14" y="3" width="7" height="7" rx="1"/><rect x="3" y="14" width="7" height="7" rx="1"/><rect x="14" y="14" width="7" height="7" rx="1"/></svg>
+          <span>DSA</span>
+        </div>
+        <div class="skill-chip" data-skill="genai">
+          <svg class="skill-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><circle cx="12" cy="12" r="3"/><path d="M12 1v4"/><path d="M12 19v4"/><path d="M4.22 4.22l2.83 2.83"/><path d="M16.95 16.95l2.83 2.83"/><path d="M1 12h4"/><path d="M19 12h4"/><path d="M4.22 19.78l2.83-2.83"/><path d="M16.95 7.05l2.83-2.83"/></svg>
+          <span>Gen AI</span>
+        </div>
+        <div class="skill-chip" data-skill="web">
+          <svg class="skill-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><circle cx="12" cy="12" r="10"/><path d="M2 12h20"/><path d="M12 2a15.3 15.3 0 0 1 4 10 15.3 15.3 0 0 1-4 10 15.3 15.3 0 0 1-4-10 15.3 15.3 0 0 1 4-10z"/></svg>
+          <span>Web Dev</span>
+        </div>
+        <div class="skill-chip" data-skill="git">
+          <svg class="skill-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><circle cx="18" cy="18" r="3"/><circle cx="6" cy="6" r="3"/><path d="M6 21V9a9 9 0 0 0 9 9"/></svg>
+          <span>Git</span>
+        </div>
+        <div class="skill-chip" data-skill="dbms">
+          <svg class="skill-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><ellipse cx="12" cy="5" rx="9" ry="3"/><path d="M3 5v14c0 1.66 4 3 9 3s9-1.34 9-3V5"/><path d="M3 12c0 1.66 4 3 9 3s9-1.34 9-3"/></svg>
+          <span>DBMS</span>
+        </div>
+        <div class="skill-chip" data-skill="problemsolving">
+          <svg class="skill-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M9.663 17h4.673M12 3v1m6.364 1.636l-.707.707M21 12h-1M4 12H3m3.343-5.657l-.707-.707m2.828 9.9a5 5 0 1 1 7.072 0l-.548.547A3.374 3.374 0 0 0 14 18.469V19a2 2 0 1 1-4 0v-.531c0-.895-.356-1.754-.988-2.386l-.548-.547z"/></svg>
+          <span>Problem Solving</span>
+        </div>
+        <div class="skill-chip" data-skill="teamwork">
+          <svg class="skill-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"/><circle cx="9" cy="7" r="4"/><path d="M23 21v-2a4 4 0 0 0-3-3.87"/><path d="M16 3.13a4 4 0 0 1 0 7.75"/></svg>
+          <span>Collaboration</span>
+        </div>
+      </div>
+    </section>
+
+    <section class="bento-card card-marquee" data-animate>
+      <div class="marquee-track">
+        <div class="marquee-content">
+          <span>INNOVATOR</span>
+          <span class="marquee-dot">◆</span>
+          <span>ENGINEER</span>
+          <span class="marquee-dot">◆</span>
+          <span>PROBLEM SOLVER</span>
+          <span class="marquee-dot">◆</span>
+          <span>BUILDER</span>
+          <span class="marquee-dot">◆</span>
+          <span>INNOVATOR</span>
+          <span class="marquee-dot">◆</span>
+          <span>ENGINEER</span>
+          <span class="marquee-dot">◆</span>
+          <span>PROBLEM SOLVER</span>
+          <span class="marquee-dot">◆</span>
+          <span>BUILDER</span>
+          <span class="marquee-dot">◆</span>
+        </div>
+      </div>
+    </section>
+
+    <!-- ── ROW 4 ── -->
+    <section class="bento-card card-contact" id="contact" data-animate>
+      <div class="card-label">Get In Touch</div>
+      <h2 class="contact-heading">Let's build<br>something <span class="accent">extraordinary</span>.</h2>
+      <a href="mailto:gourangi98@gmail.com" class="contact-btn" id="contact-btn">
+        <span>Contact Me</span>
+        <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14"/><path d="m12 5 7 7-7 7"/></svg>
+      </a>
+    </section>
+
+    <section class="bento-card card-location" data-animate>
+      <div class="card-label">Based In</div>
+      <div class="location-content">
+        <svg class="location-icon" width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"/><circle cx="12" cy="10" r="3"/></svg>
+        <h3 class="location-city">Jaipur, India</h3>
+        <p class="location-sub">Open to remote opportunities worldwide</p>
+      </div>
+    </section>
+
+    <section class="bento-card card-time" data-animate>
+      <div class="card-label">Local Time</div>
+      <div class="time-display">
+        <span class="time-value" id="local-time">--:--</span>
+        <span class="time-zone">IST (UTC+5:30)</span>
+      </div>
+    </section>
+
+  </main>
+
+  <!-- ══════════════ FOOTER ══════════════ -->
+  <footer class="footer" id="footer">
+    <div class="footer-inner">
+      <p>&copy; 2025 Gourangi Sharma · Crafted with precision &amp; passion</p>
+      <p class="footer-sub">Designed to inspire.</p>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
